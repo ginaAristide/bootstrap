@@ -1,0 +1,266 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Guy-Steevy">
+    <meta name="description" content="lesson regarding bootstrap">
+    <meta name="keywords" content="HTML, CSS, Bootstrap">
+
+    <link rel="stylesheet" href="boot_css_js/css/bootstrap.min.css">
+    <title>Base Bootstrap local</title>
+</head>
+
+<body>
+
+    <body>
+        <!-- Bootstrap est un framework CSS, autrement dit, une boîte à outils que l'on ajoute à notre site -->
+        <h1>BOOTSTRAP</h1>
+
+        <!-- la classe "container" prend 70% de la largeur -->
+        <div class="container">
+            <h2>Les containers ou blocs principaux</h2>
+        </div>
+
+        <!-- la classe "container-fluid" prend 100% de la largeur -->
+        <div class="container-fluid">
+            <p>.container-fluid</p>
+        </div>
+
+        <div class="container">
+            <h2>Le système de grille</h2>
+
+            <h3>Les lignes .row</h3>
+
+            <div class="row">Une row</div>
+            <div class="row">Une row</div>
+            <div class="row">Une row</div>
+
+            <h3>Les colonnes .col</h3>
+
+            <div class="row no-gutters">
+                <div class="col">Une colonne</div>
+                <div class="col">Une colonne</div>
+                <div class="col">Une colonne</div>
+            </div>
+
+            <h3>Les media-queries de BS .col-*</h3>
+
+            <ul>
+                <li>Bootstrap est conçu en mobile first</li>
+                <ul>
+                    <li>.col-* = extra small : téléphones</li>
+                    <li>.col-sm-* = small : tablettes</li>
+                    <li>.col-md-* = medium : 15pouces</li>
+                    <li>.col-lg-* = large : écrans larges</li>
+                    <li>.col-xl-* = extra larges : >= 12.000px</li>
+                </ul>
+            </ul>
+
+            <div class="row">
+                <div class="col">Une colonne</div>
+                <div class="col6">Une colonne</div>
+                <div class="col">Une colonne</div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">Une colonne</div>
+                <div class="col-9">Une colonne</div>
+                <div class="col-1">Une colonne</div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">Une colonne</div>
+                <div class="col-10">Une colonne</div>
+                <div class="col-1">Une colonne</div>
+                <!-- si je dépasse le nombre maximal de 12 row, la ou les suivantes vont à la ligne -->
+            </div>
+
+            <hr>
+
+            <h2>Les marges .offset</h2>
+
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4 offset-md-3">.col-md-4 .offset-md-4</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+            </div>
+
+            <hr>
+
+
+            <h2>Alignement du texte</h2>
+            <div class="row">
+                <div class="col">
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit reiciendis quam temporibus inventore sequi aliquid sed facilis, consequatur neque obcaecati. Modi quisquam atque fugiat, obcaecati ad ab nam voluptates!
+                        Adipisci quia, reprehenderit tempora veniam asperiores impedit nihil deleniti quo maiores quae. Eveniet cum rem qui, tempore nesciunt ad, sit sapiente itaque iusto illo quasi beatae exercitationem id voluptate porro!
+                        Omnis, aut cum recusandae deserunt soluta quis enim qui ducimus, aliquid culpa quisquam id vitae laboriosam ad dolor tenetur sed tempore sequi repellendus cupiditate magnam autem deleniti quo ex! Ab.
+                        Neque doloribus deserunt porro voluptas! Voluptas voluptate velit nam, error nemo aliquam cumque maxime quod, vero id debitis temporibus sunt repellendus consequuntur. Obcaecati recusandae voluptate sequi facilis explicabo enim? Exercitationem.
+                        Accusantium maxime quam corporis repellendus a deserunt eius sit magnam dolorem recusandae, dignissimos ipsum voluptates rem corrupti optio nobis aliquid non distinctio odit minus molestiae! Consequatur est illum provident modi!
+                    </p>
+
+                    <hr>
+
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat autem, ex tempore deserunt assumenda saepe necessitatibus amet numquam enim minima expedita, similique magnam hic molestias ipsa pariatur quos ipsum!
+                        Nobis doloribus voluptate quis voluptatem sed. Mollitia illo explicabo odio unde. Deserunt harum quos ullam vel, veritatis dolorem corrupti, repellendus itaque illum, fuga esse cumque eum rerum nulla dolorum consectetur.
+                        Quis accusantium voluptate assumenda in esse, tempora magni quae natus blanditiis ducimus eveniet alias fugiat delectus illum modi iure labore mollitia provident quas reprehenderit necessitatibus est adipisci? Est, voluptatum aliquam.
+                        Beatae delectus ab voluptate vitae eligendi, molestias reprehenderit tempore magni maxime temporibus tempora natus neque nostrum corporis officia ad est voluptas. Aspernatur sunt, hic placeat inventore possimus quibusdam molestiae deleniti!
+                        Aspernatur mollitia ut minus quia, harum et aliquid amet asperiores dolore perferendis in, similique ullam veniam nisi velit tempora vel libero eos ex! Maxime beatae, suscipit dolore corporis quod accusamus?
+                        Omnis iusto mollitia rerum explicabo saepe ipsam, animi officiis ad quaerat minus porro aperiam, enim error similique in ipsum velit doloremque dolorum amet. Ad quisquam corporis sint, harum eaque quibusdam?
+                        Ullam accusamus, inventore ex perspiciatis tempore praesentium sunt mollitia accusantium esse libero qui amet atque sint modi reprehenderit excepturi cupiditate iste suscipit fuga deserunt. Consectetur architecto corporis explicabo nemo culpa?
+                    </p>
+
+                    <hr>
+
+                    <p class="text-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus. Numquam ipsa sit unde iste adipisci molestias incidunt sunt laborum? Aliquid eveniet esse deleniti dolores eius vero provident placeat aperiam!
+                        Quas odio dolore, dolor deleniti vitae repudiandae natus fugit voluptatem sapiente fuga facilis dicta cupiditate quasi molestiae pariatur incidunt assumenda, voluptas impedit praesentium quos obcaecati veniam magnam ut? Sed, qui.
+                        Error assumenda a molestias autem excepturi quidem iusto sequi doloribus dolores eaque iure reiciendis rerum nisi quae vero optio eum temporibus provident incidunt amet neque, hic quibusdam. Doloremque, eos eaque!
+                    </p>
+                </div>
+
+                <h3>Imbriquer des blocs de la grille : "nesting"</h3>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        1er niveau : .col-sm-9
+                        <div class="row">
+                            <div class="col-8 col-sm-6">2ème niveau : .col-8 .col-sm-6</div>
+
+                            <div class="col-4 col-sm-6">
+                                2ème niveau : .col-4 .col-sm-6
+                                <div class="row">
+                                    <div class="col-4">3ème niveau</div>
+                                    <div class="col-4">3ème niveau</div>
+                                    <div class="col-4">3ème niveau</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h2>Les couleurs de BS</h2>
+
+            <h3>Les alertes</h3>
+
+            <div class="alerts">
+                <div class="alert alert-primary" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    A simple secondary alert—check it out!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    A simple warning alert—check it out!
+                </div>
+                <div class="alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                </div>
+                <div class="alert alert-light" role="alert">
+                    A simple light alert—check it out!
+                </div>
+                <div class="alert alert-dark" role="alert">
+                    A simple dark alert—check it out!
+                </div>
+            </div>
+
+            <h3>Les boutons</h3>
+
+            <div class="buttons">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+
+            <hr>
+
+            <h2>Les formulaires</h2>
+
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+            <hr>
+
+            <h2>Les tableaux</h2>
+
+            <div class="col-6 m-auto">
+                <table class="table table-dark table hover">
+                    <thead>
+                        <tr>
+                            <th class="col">#</th>
+                            <th class="col">Prénom</th>
+                            <th class="col">Couleur</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th class="scope">1</th>
+                            <td>Premièrement</td>
+                            <td>Deuxièmement</td>
+                        </tr>
+                        <tr>
+                            <th class="scope">2</th>
+                            <td>Troisièmement</td>
+                            <td>Quatrièmement</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr>
+
+            <h2>La navbar</h2>
+
+            <nav class="navbar navbar-danger bg-danger mb-5">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand link-light">Navbar</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Lien vers Js de Bootstrap en local -->
+        <script src="boot_css_js/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
